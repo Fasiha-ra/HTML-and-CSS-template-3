@@ -1,0 +1,100 @@
+footer {
+  background-color: #1c0c73;
+  color: #fff;
+  padding-top: 20px;
+
+  .footer-section {
+    flex-direction: column;
+
+    @media screen and (min-width:576px) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+    }
+
+    .address {
+      padding-bottom: 20px;
+
+      .location-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 20px;
+
+        a {
+          color: #fff;
+
+          &:hover {
+            color: #00BBF0;
+          }
+        }
+      }
+    }
+
+    .info {
+      p {
+        width: 262px;
+        color: #fff;
+      }
+    }
+
+    .links {
+      .links-section {
+        display: flex;
+        flex-direction: column;
+
+        a {
+          color: #fff;
+
+          &:hover {
+            color: #00BBF0;
+          }
+        }
+      }
+    }
+
+    .subscribe {
+      .subscribe-section {
+        padding-bottom: 20px;
+
+        input {
+          font-size: 20px;
+          border: none;
+          border-bottom: 2px solid #fff;
+          width: 70%;
+          background-color: transparent;
+          color: #fff;
+          outline: 0;
+          height: 25px;
+
+          @media screen and (min-width:576px) {
+            height: 45px;
+            width: 100%;
+          }
+
+          &::placeholder {
+            color: #fff;
+          }
+        }
+      }
+
+      .bton .btn {
+       
+        width: 70%;
+        padding: 10px 55px;
+
+        @media screen and (min-width:576px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}
+
+h4 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
